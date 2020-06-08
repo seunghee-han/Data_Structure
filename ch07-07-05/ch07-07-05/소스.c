@@ -133,7 +133,7 @@ int main() {
 	treeNode* root_AVL = NULL;
 	treeNode* root_BST = NULL;
 
-	root_AVL = insert_AVL_Node(&root_AVL, 50);
+	root_AVL = insert_AVL_Node(root_AVL, 50);
 	insert_AVL_Node(&root_AVL, 60);
 	insert_AVL_Node(&root_AVL, 70);	
 	insert_AVL_Node(&root_AVL, 90);
@@ -155,7 +155,7 @@ int main() {
 	printf("\n\nAVL 트리에서 76 탐색 : ");
 	searchTree(root_AVL, 76);
 
-	root_BST = insert_BST_Node(&root_BST, 50);
+	root_BST = insert_BST_Node(root_BST, 50);
 	insert_BST_Node(&root_BST, 60);
 	insert_BST_Node(&root_BST, 70);
 	insert_BST_Node(&root_BST, 90);
