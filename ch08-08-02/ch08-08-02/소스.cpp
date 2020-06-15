@@ -74,7 +74,7 @@ void main() {
 	insertEdge(G1, 3, 1);
 	insertEdge(G1, 3, 0);
 	printf("\n G1의 인접 리스트");
-	print_adjMatrix(G1);
+	print_adjList(G1);
 
 	for (i = 0; i < 3; i++)
 		insertVertex(G2, i);
@@ -85,7 +85,7 @@ void main() {
 	insertEdge(G2, 2, 1);
 	insertEdge(G2, 2, 0);
 	printf("\n\n G2의 인접 리스트");
-	print_adjMatrix(G2);
+	print_adjList(G2);
 
 	for (i = 0; i < 4; i++)
 		insertVertex(G3, i);
@@ -95,7 +95,7 @@ void main() {
 	insertEdge(G3, 1, 2);
 	insertEdge(G3, 2, 3);
 	printf("\n\n G3의 인접 리스트");
-	print_adjMatrix(G3);
+	print_adjList(G3);
 
 	for (i = 0; i < 3; i++)
 		insertVertex(G4, i);
@@ -104,7 +104,7 @@ void main() {
 	insertEdge(G4, 1, 2);
 	insertEdge(G4, 1, 0);
 	printf("\n\n G4의 인접 리스트");
-	print_adjMatrix(G4);
+	print_adjList(G4);
 
 	getchar();
 }
